@@ -1,9 +1,148 @@
-<html>
- 
-<body>
-  <h1>François Galy</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf8">
+        <link href="./styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+        <title>Révisions CSS</title>
+        
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <a href="index.html"><li>Page 1</li></a>
+                    <a href="page2.html"><li>Page 2</li></a>
+                    <li>Menu 3</li>
+                </ul>
+            </nav>
+            <h1>Fiche de révisions de CSS - Page 1</h1>
+        </header>
+        <section class="section-sujet">
+            <h2>Positionnement des éléments (Position)</h2>
+            
+            <p>Décrit les différentes façons de positionner un élément en CSS : <span class="surligneur">static</span>, <span class="surligneur">relative</span>, <span class="surligneur">absolute</span>, <span class="surligneur_rouge">❤️ sticky</span> ou <span class="surligneur">fixed</span>.</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col" colspan="2" class="table-title">&#60; Position &#62;</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Valeur</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"><div class="surligneur">static</div></th>
+                        <td>Position statique</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><div class="surligneur">relative</div></th>
+                        <td>Positionnement en relatif par rapport à sa situation normale ("static"). Positionnement en relatif par rapport à sa situation normale ("static"). Positionnement en relatif par rapport à sa situation normale ("static").</td>
+                    </tr>                    
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th scope="row"><div class="surligneur">absolute</div></th>
+                        <td>Position absolue</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <div class="bloc-de-code">
+                <p>p {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;position: relative;<br>
+                }</p>
+            </div>
+        </section>
+
+        <section class="section-sujet">
+            <h2>Affichage des éléments (Display)</h2>
+            <p>Décrit les différents styles d'éléments en CSS : <span class="surligneur">inline</span>, <span class="surligneur">block</span>, <span class="surligneur">inline-block</span>.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col" colspan="2" class="table-title">&#60; Display &#62;</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Valeur</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"><div class="surligneur">inline</div></th>
+                        <td>Position statique</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><div class="surligneur">block</div></th>
+                        <td>Un bloc</td>
+                    </tr>                    
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th scope="row"><div class="surligneur">inline-block</div></th>
+                        <td>Combinaison d'un inline avec la possibilité de définir une <span class="surligneur">width</span> et <span class="surligneur">height</span> spécifique.</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+
+        <section class="section-sujet">
+            <h2>Commandes courantes</h2>
+            <p>Liste des commandes CSS les plus courantes</p>
+            <table class="centered">
+                <thead>
+                    <tr>
+                        <th scope="col" colspan="3" class="table-title">Commandes courantes</th>
+                    </tr>
+                    <tr>
+                        <th scope="col" colspan="3">Valeurs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><div class="surligneur">font-family:</div></td>
+                        <td><div class="surligneur">font-size:</div></td>
+                        <td><div class="surligneur">font-weight:</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="surligneur">text-align:</div></td>
+                        <td><div class="surligneur">color:</div></td>
+                        <td><div class="surligneur">background-color:</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="surligneur">margin-left:</div></td>
+                        <td><div class="surligneur">padding-top:</div></td>
+                        <td><div class="surligneur">line-height:</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="surligneur">text-transform:</div></td>
+                        <td><div class="surligneur">opacity: 0.5</div></td>
+                        <td><div class="surligneur">background-image:</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="surligneur">border-bottom:</div></td>
+                        <td><div class="surligneur">border-radius:</div></td>
+                        <td><div class="surligneur">position:</div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="surligneur">display:</div></td>
+                        <td><div class="surligneur">float:</div></td>
+                        <td><div class="surligneur">clear:</div></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <footer>
+            <p>Mentions légales</p>
+        </footer>
+
+    </body>
 </html>
