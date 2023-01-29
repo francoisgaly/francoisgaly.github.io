@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf8">
+        <link href="./styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+        <title>Révisions CSS</title>
+        
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <a href="index.html"><li>Page 1</li></a>
+                    <a href="page2.html"><li>Page 2</li></a>
+                    <li>Menu 3</li>
+                </ul>
+            </nav>
+            <h1>Fiche de révisions de CSS - Page 2</h1>
+        </header>
+        <section class="section-sujet">
+            <h2>Différents types de sélecteurs</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col" colspan="2" class="table-title">Les différents types de sélecteurs</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Valeur</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row"><div class="surligneur">p {}</div></th>
+                        <td>Sélecteur des éléments de type p</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><div class="surligneur">* {}</div></th>
+                        <td>Sélecteur générique : applique la modification à l'ensemble des éléments CSS</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><div class="surligneur">#id {}</div></th>
+                        <td>Sélecteur pour un id</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><div class="surligneur">.class {}</div></th>
+                        <td>Sélecteur pour toutes les classes</td>
+                    </tr>                                 
+                </tbody>
+            </table>
+        </section>
+
+        <section class="section-sujet">
+            <h2>Combinaisons de sélecteurs</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col" colspan="2" class="table-title">Combinaisons</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Valeur</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row"><div class="surligneur">ul li {}</div></th>
+                        <td><em>Descendant Combinator</em> : Sélectionne les élements "li" enfants des éléments "ul".</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><div class="surligneur">ul.class {}</div></th>
+                        <td><em>Chaining</em> : Sélectionne les élements "ul" ayant une classe "class"</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><div class="surligneur">ul, ol {}</div></th>
+                        <td><em>Multiple selector</em> : Sélectionne à la fois les éléments "ul" et les "ol".</td>
+                    </tr>                          
+                </tbody>
+            </table>
+        </section>
+
+        <section class="section-sujet">
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col" colspan="2" class="table-title">Sélecteur d'attributs</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Valeur</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row"><div class="surligneur">[href] {}</div></th>
+                        <td>Sélectionne tous les élements contrenant un attribut [href].</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><div class="surligneur">img[src*='winter'] {}</div></th>
+                        <td>Sélectionne les balises images contenant un attribut src avec le mot 'winter'</td>
+                    </tr>                      
+                </tbody>
+            </table>
+        </section>
+
+        <section class="section-sujet">
+            <p>Lien vers la liste des <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes">pseudo-classes</a></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col" colspan="2" class="table-title">Pseudo-class</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Valeur</th>
+                        <th scope="col">Description</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row"><div class="surligneur">div:hover {}</div></th>
+                        <td>S'applique au moment où on survolle le div avec la souris.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><div class="surligneur">div:active {}</div></th>
+                        <td>S'applique quand l'élément est actif : quand on clique dessus par exemple.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><div class="surligneur">div:focus {}</div></th>
+                        <td>S'applique quand on focalise sur l'élément.</td>
+                    </tr>                                       
+                </tbody>
+            </table>
+        </section>
+
+        <footer>
+            <p>Mentions légales</p>
+        </footer>
+
+    </body>
+</html>
